@@ -13,12 +13,12 @@ const Home = () => {
           <div className="text-center xl:text-left">
             <span>Software Developer</span>
             <h1 className="h1 mb-6">
-              Hello Im <br />{" "}
+              Hello I'm <br />{" "}
               <span className="text-accent">Arman Dian Rizki</span>
             </h1>
             <p className="max-w-[500px] text-white/80">
-              I exel if creafting elegan digital experiences and i am proficient
-              in front-end technologies.
+              I exel if creafting elegant digital experiences and i am
+              proficient in front-end technologies.
             </p>
             {/* btn and social */}
             <div className="flex xl:flex-row flex-col items-center gap-8">
