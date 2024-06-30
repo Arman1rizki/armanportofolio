@@ -17,8 +17,8 @@ const Home = () => {
               <span className="text-accent">Arman Dian Rizki</span>
             </h1>
             <p className="max-w-[500px] text-white/80">
-              I exel if creafting elegant digital experiences and i am
-              proficient in front-end technologies.
+              I exel if creafting elegan digital experiences and i am proficient
+              in front-end technologies.
             </p>
             {/* btn and social */}
             <div className="flex xl:flex-row flex-col items-center gap-8">
@@ -39,9 +39,7 @@ const Home = () => {
             </div>
           </div>
           {/* Photo */}
-          <div>
-            {/* <Photo /> */}
-          </div>
+          <div>{/* <Photo /> */}</div>
         </div>
       </div>
     </section>
