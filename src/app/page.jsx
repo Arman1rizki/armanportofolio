@@ -3,6 +3,7 @@ import { FiDownload } from "react-icons/fi";
 
 // components
 import Social from "@/components/ui/Social";
+import Photo from "@/components/Photo";
 
 const Home = () => {
   return (
@@ -10,11 +11,11 @@ const Home = () => {
       <div className="container max-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* Text */}
-          <div className="text-center xl:text-left">
-            <span>Software Developer</span>
+          <div className="text-center xl:text-left order-2 xl:order-none">
+            <span>Front end Developer</span>
             <h1 className="h1 mb-6">
               Hello I'm <br />{" "}
-              <span className="text-accent">Arman Dian Rizki</span>
+              <span className="text-accent from-accent-hover">Arman Rizki</span>
             </h1>
             <p className="max-w-[500px] text-white/80">
               I exel if creafting elegant digital experiences and i am
@@ -39,9 +40,12 @@ const Home = () => {
             </div>
           </div>
           {/* Photo */}
-          <div>{/* <Photo /> */}</div>
+          <div className="order-1 xl:order-1 mb xl:mb-0">
+            <Photo />
+          </div>
         </div>
       </div>
+      {/* <Stats/> */}
     </section>
   );
 };
