@@ -27,7 +27,7 @@ const Stats = () => {
         <div>
           {stats.map((stat, index) => {
             return
-            <div key></div>
+            <div key={index} ></div>
           })}
         </div>
       </div>
